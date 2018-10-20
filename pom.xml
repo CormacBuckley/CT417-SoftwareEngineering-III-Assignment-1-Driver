@@ -10,4 +10,19 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+     <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+     </repositories>
+        <dependencies>
+           <dependency>
+	    <groupId>com.github.CormacBuckley</groupId>
+	    <artifactId>CT417-SoftwareEngineering-III-Assignment-1</artifactId>
+	    <version>ecdb2cc</version>
+                <type>jar</type>
+           </dependency>
+        </dependencies>
+      
 </project>
