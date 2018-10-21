@@ -16,13 +16,18 @@
 		    <url>https://jitpack.io</url>
 		</repository>
      </repositories>
-        <dependencies>
-           <dependency>
-	    <groupId>com.github.CormacBuckley</groupId>
-	    <artifactId>CT417-SoftwareEngineering-III-Assignment-1</artifactId>
-	    <version>ecdb2cc</version>
-                <type>jar</type>
-           </dependency>
-        </dependencies>
-      
+    <dependencies>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.CormacBuckley</groupId>
+            <artifactId>CT417-SoftwareEngineering-III-Assignment-1</artifactId>
+            <version>5271a3d34c</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
